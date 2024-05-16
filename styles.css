@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+  
+        background-image: url('background11.jpeg');
+        background-size: cover; 
+        background-position: center; 
+
+    
+    
+}
+header .container h1 {
+    float: left;
+    font-family: 'Arial Black', sans-serif; /* Choose a bold font */
+    font-size: 36px; /* Adjust font size as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+    margin-right: 20px; /* Add some space between the logo and other elements */
+    color:chartreuse; /* Change the color to match your design */
+}
+.hai{
+    padding-top: 20px;
+}
+
+
+.search-bar {
+    float: right;
+    position: relative;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 16px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container h1 {
+    float: left;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.categories {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+.categories ul {
+    text-align: center;
+}
+
+.categories ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.categories ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.product {
+    width: 200px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color:white;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block; /* Change from float: left to display: inline-block */
+}
+
+.container {
+    text-align: center; /* Center the products horizontally */
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.product h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 14px;
+    color: #007bff;
+}
+
+.rating {
+    color: #f39c12;
+    margin-top: 5px;
+}
+
+.rating i {
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color:white#333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
